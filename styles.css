@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(59, 59, 163);
+    font-weight: bolder;
+    height: 30px;
+    padding-top: 10px;
+}
+.font{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.imgshome{
+    width: 100%;
+    margin-top: 2px;
+}
+h2{
+    color: rgb(15, 133, 223);
+    font-style: italic;
+}
+h1{
+    color: blue;
+    text-align: center;
+}

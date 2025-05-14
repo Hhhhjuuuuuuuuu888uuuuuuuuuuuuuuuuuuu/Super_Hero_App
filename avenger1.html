@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER_HERO_APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a class="font" href="index.html">Home</a>
+        <a class="font"  href="about_us.html">About Us</a>
+        <a class="font"  href="contacts.html">Contacts</a>
+    </nav>
+    <section>
+        <h2>Thor Odlinson</h2>
+        <img class="imgshome" src="images/avengers_01.jpg" alt="">
+         <h2>Bio</h2>
+         <p>
+       <b>Full Name:</b> Thor Odlinson <br><br>
+       <b>Place of Birth:</b> Asgard<br><br>
+       <b>Alignment:</b> Good<br><br>
+        <b>Race:</b> Asgardian<br><br>
+
+        <p id="percent">70%</p>
+
+        </p>
+
+        <br>
+
+        <h2>Power Stats</h2>
+            <a onclick="perCentage()" href="#">A</a>
+        <p >
+            <b>Intelligence:</b><p > 70% </p><br><br>
+            <b>Streanth:</b> 100%<br><br>
+            <b>Speed:</b> 92%<br><br>
+            <b>Power:</b> 100%<br><br>
+            <b>Combat:</b> 100%
+        </p>
+    </section>
+    <script>
+        function perCentage(){
+
+            document.getElementById('percent').innerHTML = "SEVENTY PERCENT" ;
+
+        }
+    </script>
+</body>
+</html>

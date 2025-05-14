@@ -3,6 +3,7 @@ nav{
     font-weight: bolder;
     height: 30px;
     padding-top: 10px;
+    z-index: 999;
 }
 .font{
     color: white;
